@@ -97,6 +97,23 @@ async function fetchProductsJSON() {
   });
 
 
+  //EVENT LISTENER
+  document.addEventListener("click", function(){
+    document.getElementById("demo").innerHTML = "Hello World";
+  });
+
+
+  //INNER HTML
+  document.getElementById("demo").innerHTML = "I have changed!";
+
+
+  //CLASS LIST
+  const listAdd = element.classList;
+        list.add("myStyle");
+        list.remove("myStyle");
+        list.toggle("myStyle");
+
+
 /*
 git init					    Initialize a repository 
 git add *				        add all changes to next commit on status staged
