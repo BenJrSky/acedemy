@@ -1,0 +1,22 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.carousel-inner{
+    background-color: #ffff;
+}
+
+img.second-slide{
+    object-fit: contain;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.search-title{
+    height: 10rem !important;
+}
