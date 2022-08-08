@@ -1,4 +1,3 @@
 window.onload = ()=>{
-    console.log("---> document is ready!")
-
+    console.log("---> document is ready!");
 }
