@@ -168,7 +168,7 @@
 
                         const text = (item.title+' '+item.description+' '+item.category+' '+item.price).toLowerCase();
 
-                        if(text.includes(searchText)){
+                        if(text.includes(searchText.toLowerCase())){
                             acc.push(item)
                         }
 
