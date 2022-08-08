@@ -1,3 +1,6 @@
+
+//CLONE BRANCH git clone -b master https://github.com/BenJrSky/acedemy.git
+
 // FAKE STORE API
 
 //Get all products
