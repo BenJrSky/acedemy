@@ -1,3 +1,6 @@
+
+//CLONE BRANCH git clone -b master https://github.com/BenJrSky/acedemy.git
+
 // FAKE STORE API
 
 //Get all products
@@ -24,7 +27,6 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
 fetch('https://fakestoreapi.com/users')
     .then(res=>res.json())
     .then(json=>console.log(json));
-
 
 
 //WHAT WE HAVE
